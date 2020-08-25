@@ -11,7 +11,7 @@ app=Flask(__name__)
 
 
 
-@app.route('/predict', methods=['POST'])
+@app.route('https://krishna-kumar-prathipati.github.io/krishna1/predict', methods=['POST'])
 def predict():
     if request.method == 'POST':
         preg = int(request.form['Name'])
